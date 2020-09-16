@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>NamNhuan</title>
+</head>
+<body>
+<script>
+    let a = parseInt(prompt("Enter a year"));
+    if (a % 4 == 0) {
+        if (a % 100 == 0) {
+            if (a % 400 == 0) {
+                alert(a + " là một năm nhuận");
+            } else {
+                alert(a + " không phải năm nhuận");
+            }
+        } else {
+            alert(a + " là một năm nhuận");
+        }
+    } else {
+        alert(a + " không phải năm ");
+    }
+</script>
+
+</body>
+</html>
